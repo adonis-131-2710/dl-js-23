@@ -158,6 +158,14 @@ body {
 @media screen and (max-height: 500px) {
     .slide {
         top: 10%;
+        transform: translateX(-50%) perspective(600px); 
+    }
+    .center {
+        width: 85px;
+        height: 120px;
+        border-radius: 10px;
+        padding: 4px;
+        filter: brightness(1.1);
     }
     .content {
         font-size: 20px;
